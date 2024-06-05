@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/code/Kursach/WebApplication1/src/java/com/example/mbd/services/AppointmentServiceImpl.java</file>
+            <file>file:/D:/code/Kursach/WebApplication1/web/WEB-INF/jsp/loggedGuest.jsp</file>
+            <file>file:/D:/code/Kursach/WebApplication1/src/java/com/example/mbd/impl/inmemory/InMemoryDataBase.java</file>
+            <file>file:/D:/code/Kursach/WebApplication1/src/java/com/example/mbd/model/Appointment.java</file>
+            <file>file:/D:/code/Kursach/WebApplication1/src/java/com/example/mbd/web/LoggedGuestServlet.java</file>
+            <file>file:/D:/code/Kursach/WebApplication1/src/java/com/example/mbd/web/AdminServlet.java</file>
+            <file>file:/D:/code/Kursach/WebApplication1/web/WEB-INF/jsp/guest.jsp</file>
+            <file>file:/D:/code/Kursach/WebApplication1/src/java/com/example/mbd/services/UserServiceImpl.java</file>
+            <file>file:/D:/code/Kursach/WebApplication1/src/java/com/example/mbd/impl/inmemory/InMemoryDoctorDao.java</file>
+            <file>file:/D:/code/Kursach/WebApplication1/src/java/com/example/mbd/web/GuestServlet.java</file>
+            <file>file:/D:/code/Kursach/WebApplication1/src/java/com/example/mbd/impl/inmemory/InMemoryTestData.java</file>
+            <file>file:/D:/code/Kursach/WebApplication1/web/WEB-INF/jsp/admin.jsp</file>
+        </group>
+    </open-files>
+</project-private>

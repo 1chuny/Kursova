@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	 version="4.0">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+    <listener>
+        <description>ServletContextListener</description>
+        <listener-class>com.example.mbd.web.AppContextListener</listener-class>
+    </listener>
+    
+    <servlet>
+        <servlet-name>GuestServlet</servlet-name>
+        <servlet-class>com.example.mbd.web.GuestServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>GuestServlet</servlet-name>
+        <url-pattern>/guest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>com.example.mbd.web.AdminServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LoggedGuestServlet</servlet-name>
+        <servlet-class>com.example.mbd.web.LoggedGuestServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LoggedGuestServlet</servlet-name>
+        <url-pattern>/loggedguest</url-pattern>
+    </servlet-mapping>
+    
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <url-pattern>*.jspf</url-pattern>
+            <el-ignored>false</el-ignored>
+            <scripting-invalid>false</scripting-invalid>
+        </jsp-property-group>
+    </jsp-config>
+    
+    <error-page>
+    <error-code>500</error-code>
+    <location>/error.jsp</location>
+    </error-page>
+    
+</web-app>
